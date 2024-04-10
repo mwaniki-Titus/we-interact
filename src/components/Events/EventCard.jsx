@@ -55,7 +55,7 @@ console.log("registered users",registeredEvents)
           <h4>Favorite</h4>
           <h4 onClick={() => setShowRegisteredEvents (true)}>Registered</h4>
         </div>
-        <EventCalendar Eventmsg="November" />
+        {/* <EventCalendar Eventmsg="November" /> */}
       </div>
 
       <div className="events-images">
