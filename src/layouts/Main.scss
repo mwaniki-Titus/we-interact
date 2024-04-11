@@ -4,5 +4,10 @@
         overflow: scroll;
         padding: 10px;
         background-color: #F8FAFC;
+
+        @media screen and (max-width: 768px) {
+            width: 90%; /* Adjust width for smaller screens */
+            padding: 5px; /* Adjust padding for smaller screens */
+        }
     }
 }
