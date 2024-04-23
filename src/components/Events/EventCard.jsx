@@ -17,6 +17,7 @@ const EventCard = () => {
 const UserId=JSON.parse(localStorage.getItem("loggedInUser"))
 const loggedInUserId=UserId.user.UserID
 console.log("logged in",loggedInUserId)
+
   const { data: registeredEvents } = useGetEventsRegisteredByUserQuery(loggedInUserId);
   const [showRegisteredEvents, setShowRegisteredEvents] = useState(false);
 console.log("registered users",registeredEvents)
