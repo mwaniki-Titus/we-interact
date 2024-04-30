@@ -19,12 +19,12 @@ const Navbar = () => {
     const[showProfile, setShowProfile]=useState(false)
     const [showMessages, setShowMessages] = useState(false);
 
-
   const handleProfile=()=>{
-      setShowProfile(true)
-      navigate("/profile");
-      console.log("navigation");
+    setShowProfile(true)
+    navigate("/profile");
+    console.log("navigation");
   }
+ 
     const [userDetails, setUserDetails] = useState({});
   
     useEffect(() => {
